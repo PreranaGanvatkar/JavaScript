@@ -9,3 +9,7 @@ console.log("Sub of "+x+" and "+y+" is: ",a);
 console.log("Mul of "+x+" and "+y+" is: ",b);
 console.log("Div of "+x+" and "+y+" is: ",c);
 
+let p=9;
+document.getElementById("demo").innerHTML=(p==2); //False
+document.getElementById("demo").innerHTML=(p>2); //True
+
